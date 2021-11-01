@@ -7,8 +7,8 @@
 .main-data-container{
     width: 40%;
     margin-right: 30px;
-    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .main-data-container h1{

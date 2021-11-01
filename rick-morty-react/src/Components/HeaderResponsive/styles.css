@@ -1,17 +1,17 @@
 .header{
-    font: 24px 'Bebas neue', 'Roboto', sans-serif;
+    font: 24px 'Bebas Neue', 'Roboto', sans-serif;
     background-color: #202020;
 }
 
 .menu-hamburguer{
-    display: block;
+    display: none;
 }
 
 .menu-options{
-    display:flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
+    display: flex;
     justify-content: center;
 }
 
@@ -27,6 +27,7 @@
     text-decoration: none;
     color: #f4f4f4;
 }
+
 @media(max-width: 768px){
     .header{
         font-size: 18px;
@@ -38,14 +39,11 @@
         padding: 20px 40px;
         text-align: start;
     }
-    
     .menu-options{
         display:none;
     }
-}
-
-.menu-options.active{
+    .menu-options.active{
     display: flex;
     flex-direction: column;
-
+    }
 }
