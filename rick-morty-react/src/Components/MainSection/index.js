@@ -1,12 +1,11 @@
 import React from 'react';
-import './style.css';
-
+import './styles.css';
 function MainSection(){
     return(
         <div className="main-container">
             <div className="main-data-container">
                 <h1>Rick and Morty</h1>
-                <p>O brilhante cientista beberrão Rick sequestra Morty, seu neto aborrescente, para viver loucuras em outros mundos e dimensões alternativas</p>
+                <p>O brilhante cientista beberrão Rick sequestra Morty, seu neto aborrescente, para viver loucuras em outros mundos e dimensões alternativas.</p>
                 <button type="submit">Veja mais</button>
                 </div>
                 <img 
