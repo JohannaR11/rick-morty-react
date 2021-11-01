@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './styles.css';
+import {useState } from 'react';
+
 function HeaderResponsive(){
     const [active, setActive] = useState(false);
 
@@ -10,7 +11,6 @@ function HeaderResponsive(){
         setActive(!active);
         console.log(active);
     }
-
     return(
         <div className="header">
             <div className= "menu-hamburguer" onClick={openMenu}>
